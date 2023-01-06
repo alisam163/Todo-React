@@ -1,0 +1,39 @@
+.item {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.item .title {
+  font-size: 20px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.title_important {
+  font-size: 20px;
+  padding: 5px;
+  cursor: pointer;
+  font-weight: 800;
+  color: tomato;
+}
+
+.button {
+  display: flex;
+}
+
+.button_item {
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  border: 1px solid aqua;
+  border-radius: 5px;
+  margin-left: 3px;
+}
+
+.button_item:hover {
+  background-color: aquamarine;
+  color: blueviolet;
+}
